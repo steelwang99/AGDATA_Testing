@@ -1,0 +1,10 @@
+2024-09-24 00:32:15,644 [NonParallelWorker] INFO  AGDATAApiClient - Initialized RestClient with the base URL: https://jsonplaceholder.typicode.com
+2024-09-24 00:32:15,653 [NonParallelWorker] DEBUG AGDATAApiClient - Debug logging enabled
+2024-09-24 00:32:15,653 [NonParallelWorker] INFO  AGDATAApiClient - Application started
+2024-09-24 00:32:15,653 [NonParallelWorker] INFO  AGDATAApiClient - Sending GET request to /posts endpoint
+2024-09-24 00:32:15,834 [11] INFO  AGDATAApiClient - GET request from /posts successfully
+2024-09-24 00:33:10,924 [NonParallelWorker] INFO  AGDATAApiClient - Initialized RestClient with the base URL: https://jsonplaceholder.typicode.com
+2024-09-24 00:33:10,932 [NonParallelWorker] DEBUG AGDATAApiClient - Debug logging enabled
+2024-09-24 00:33:10,933 [NonParallelWorker] INFO  AGDATAApiClient - Application started
+2024-09-24 00:33:10,933 [NonParallelWorker] INFO  AGDATAApiClient - Sending GET request to /posts endpoint
+2024-09-24 00:33:11,052 [17] INFO  AGDATAApiClient - GET request from /posts successfully

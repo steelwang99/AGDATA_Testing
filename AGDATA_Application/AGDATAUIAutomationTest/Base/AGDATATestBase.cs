@@ -82,9 +82,11 @@ namespace AGDATAUIAutomationTest.Base
 
             if (status == TestStatus.Failed)
             {
+                var messageTrace = TestContext.CurrentContext.Result.Message;
                 var stackTrace = TestContext.CurrentContext.Result.StackTrace;
                 DateTime date = DateTime.Now;
                 string Filename = "Screenshot_" + date.ToString("h_mm_ss") + ".png";
+                extent_test?.Value?.Fail(messageTrace);
                 extent_test?.Value?.Fail("TestCase Status : Failed", CaptureScreenShot(_driver, Filename));
                 extent_test?.Value?.Fail(stackTrace);
             }

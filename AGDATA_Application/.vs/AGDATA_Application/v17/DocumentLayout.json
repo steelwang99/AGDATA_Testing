@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|c:\\zhigang\\gitcode\\agdata_testing\\agdata_application\\agdatauiautomationtest\\tests\\test_overviewcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|solutionrelative:agdatauiautomationtest\\tests\\test_overviewcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|c:\\zhigang\\gitcode\\agdata_testing\\agdata_application\\agdatauiautomationtest\\base\\agdatatestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|solutionrelative:agdatauiautomationtest\\base\\agdatatestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|c:\\zhigang\\gitcode\\agdata_testing\\agdata_application\\agdatauiautomationtest\\pages\\overviewpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|solutionrelative:agdatauiautomationtest\\pages\\overviewpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|c:\\zhigang\\gitcode\\agdata_testing\\agdata_application\\agdatauiautomationtest\\tests\\test_overviewcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|solutionrelative:agdatauiautomationtest\\tests\\test_overviewcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|c:\\zhigang\\gitcode\\agdata_testing\\agdata_application\\agdatauiautomationtest\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|solutionrelative:agdatauiautomationtest\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|c:\\zhigang\\gitcode\\agdata_testing\\agdata_application\\agdatauiautomationtest\\base\\agdatatestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|solutionrelative:agdatauiautomationtest\\base\\agdatatestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|c:\\zhigang\\gitcode\\agdata_testing\\agdata_application\\agdatauiautomationtest\\pages\\overviewpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|solutionrelative:agdatauiautomationtest\\pages\\overviewpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,30 +26,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AGDATATestBase.cs",
               "DocumentMoniker": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\AGDATAUIAutomationTest\\Base\\AGDATATestBase.cs",
               "RelativeDocumentMoniker": "AGDATAUIAutomationTest\\Base\\AGDATATestBase.cs",
               "ToolTip": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\AGDATAUIAutomationTest\\Base\\AGDATATestBase.cs",
               "RelativeToolTip": "AGDATAUIAutomationTest\\Base\\AGDATATestBase.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDkAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowFUAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T05:02:11.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Test_OverviewContact.cs",
               "DocumentMoniker": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\AGDATAUIAutomationTest\\Tests\\Test_OverviewContact.cs",
               "RelativeDocumentMoniker": "AGDATAUIAutomationTest\\Tests\\Test_OverviewContact.cs",
               "ToolTip": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\AGDATAUIAutomationTest\\Tests\\Test_OverviewContact.cs",
               "RelativeToolTip": "AGDATAUIAutomationTest\\Tests\\Test_OverviewContact.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAawCcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T03:17:11.35Z",
               "EditorCaption": ""
@@ -69,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "OverviewPage.cs",
               "DocumentMoniker": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\AGDATAUIAutomationTest\\Pages\\OverviewPage.cs",
               "RelativeDocumentMoniker": "AGDATAUIAutomationTest\\Pages\\OverviewPage.cs",
@@ -77,8 +77,7 @@
               "RelativeToolTip": "AGDATAUIAutomationTest\\Pages\\OverviewPage.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T03:10:32.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T03:10:32.376Z"
             }
           ]
         }

@@ -27,7 +27,9 @@ namespace AGDATAUIAutomationTest.Base
         protected WebDriverWait _wait;
         private BrowserType _browserType;
 
-        public ExtentReports extent;
+        public static ExtentReports extent;
+        public static ExtentHtmlReporter htmlreport;
+
         public ExtentTest test;
         public ThreadLocal<ExtentTest> extent_test = new();
 
@@ -36,17 +38,23 @@ namespace AGDATAUIAutomationTest.Base
             _browserType = browserType;
         }
 
-        [SetUp]
-        public void SetUp()
+        [OneTimeSetUp]
+        public void OneTimeSetUp()
         {
             //Initialize the report folder
             string dir = System.Environment.CurrentDirectory;
             string? projdir = Directory.GetParent(dir)?.Parent?.Parent?.FullName;
-            string reporpath = projdir + "\\Reports\\Report.html";
-            var htmlreport = new ExtentHtmlReporter(reporpath);
+
+            // Set up the report path and initialize once for the entire suite
+            string reportPath = projdir + "\\Reports\\index.html";
+            htmlreport = new ExtentHtmlReporter(reportPath);
             extent = new ExtentReports();
             extent.AttachReporter(htmlreport);
+        }
 
+        [SetUp]
+        public void SetUp()
+        {
             test = extent.CreateTest(TestContext.CurrentContext.Test.Name);
             extent_test.Value = test;
 
@@ -121,6 +129,11 @@ namespace AGDATAUIAutomationTest.Base
                 _driver.Quit();
                 _driver.Dispose();
             }
+        }
+
+        [OneTimeTearDown]
+        public void OneTimeTearDown()
+        {
             extent.Flush();
         }
     }

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|c:\\zhigang\\gitcode\\agdata_testing\\agdata_application\\agdatauiautomationtest\\base\\agdatatestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A29EB18-A32B-4068-BB80-724BCB3151EB}|AGDATAUIAutomationTest\\AGDATAUIAutomationTest.csproj|solutionrelative:agdatauiautomationtest\\base\\agdatatestbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F80B6E14-2D45-4D84-A602-A611209A8133}|AGDATAPITesting\\AGDATAPITesting.csproj|c:\\zhigang\\gitcode\\agdata_testing\\agdata_application\\agdatapitesting\\agdataapitests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F80B6E14-2D45-4D84-A602-A611209A8133}|AGDATAPITesting\\AGDATAPITesting.csproj|solutionrelative:agdatapitesting\\agdataapitests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AGDATATestBase.cs",
+              "DocumentMoniker": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\AGDATAUIAutomationTest\\Base\\AGDATATestBase.cs",
+              "RelativeDocumentMoniker": "AGDATAUIAutomationTest\\Base\\AGDATATestBase.cs",
+              "ToolTip": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\AGDATAUIAutomationTest\\Base\\AGDATATestBase.cs",
+              "RelativeToolTip": "AGDATAUIAutomationTest\\Base\\AGDATATestBase.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T21:08:12.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "App.config",
               "DocumentMoniker": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\AGDATAPITesting\\App.config",
               "RelativeDocumentMoniker": "AGDATAPITesting\\App.config",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "AGDATAPITesting\\App.config",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-24T03:17:07.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T03:17:07.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AGDATAApiClient.cs",
               "DocumentMoniker": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\AGDATAPITesting\\AGDATAApiClient.cs",
               "RelativeDocumentMoniker": "AGDATAPITesting\\AGDATAApiClient.cs",
@@ -47,12 +63,11 @@
               "RelativeToolTip": "AGDATAPITesting\\AGDATAApiClient.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowCcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T01:08:54.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T01:08:54.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AGDATAApiTests.cs",
               "DocumentMoniker": "C:\\zhigang\\GitCode\\AGDATA_Testing\\AGDATA_Application\\AGDATAPITesting\\AGDATAApiTests.cs",
               "RelativeDocumentMoniker": "AGDATAPITesting\\AGDATAApiTests.cs",
@@ -60,8 +75,7 @@
               "RelativeToolTip": "AGDATAPITesting\\AGDATAApiTests.cs",
               "ViewState": "AgIAALYAAAAAAAAAAAAAAFYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T01:04:29.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T01:04:29.998Z"
             }
           ]
         }

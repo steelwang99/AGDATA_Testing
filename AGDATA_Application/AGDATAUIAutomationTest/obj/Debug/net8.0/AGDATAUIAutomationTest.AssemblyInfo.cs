@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AGDATAUIAutomationTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+850c3194d0882f10c7ef403bba3beb3d33974c7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe4b02bf57e7dc548ee6f5328239b7f890411c6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AGDATAUIAutomationTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AGDATAUIAutomationTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

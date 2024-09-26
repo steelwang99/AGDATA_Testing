@@ -36,6 +36,7 @@ namespace AGDataUITests
                 if (!string.IsNullOrEmpty(value))
                 {
                     TestContext.Progress.WriteLine(value);
+                    extent_test.Value.Info(value);
                 }
             }
 

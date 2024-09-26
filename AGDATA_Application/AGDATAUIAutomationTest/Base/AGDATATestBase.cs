@@ -79,7 +79,7 @@ namespace AGDATAUIAutomationTest.Base
             // Implicit wait
             _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15);
             // Explicit wait
-            _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
+            _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(15));
             _driver.Manage().Window.Maximize();
 
         }

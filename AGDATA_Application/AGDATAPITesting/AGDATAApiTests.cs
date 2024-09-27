@@ -4,6 +4,7 @@ using Newtonsoft.Json.Linq;
 using RestSharp;
 using log4net;
 using System.Net;
+using RestSharp;
 
 namespace AGDATAApiTesting
 {
@@ -178,5 +179,29 @@ namespace AGDATAApiTesting
             Assert.IsTrue(comments.Count > 0, $"Expected at least one comment for postId: {postId}.");
             log.Info($"Found {comments.Count} comments for postId: {postId}.");
         }
+
+        /****************************************************************
+         * This is a negative test. Because https://jsonplaceholder.typicode.com is a fake API and it always returns 200 OK. 
+         * So here a non-existing endpoint is simulated for the negative test.
+         * 
+         ****************************************************************/
+        [Test] 
+        public async Task Test_07_NonExistentEndpoint_ReturnsNotFound()
+        {
+            log.Info("Starting Test_NonExistentEndpoint_ReturnsNotFound");
+
+            // Manually create a RestClient with a non-existent endpoint
+            var client = new RestClient("https://jsonplaceholder.typicode.com");
+            var request = new RestRequest("/wrong",Method.Get);
+
+            // Action
+            var response = await client.ExecuteAsync(request);
+            log.Info("GET /wrong endpoint request sent.");
+
+            // Assert - Expect a 404 status code
+            Assert.AreEqual(HttpStatusCode.NotFound, response.StatusCode, "Expected status code 404 Not Found.");
+            log.Info("Received status code 404 Not Found for non-existent endpoint.");
+        }
     }
+
 }

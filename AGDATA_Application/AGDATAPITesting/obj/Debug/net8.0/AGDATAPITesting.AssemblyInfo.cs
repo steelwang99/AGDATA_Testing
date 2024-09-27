@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AGDATAPITesting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+850c3194d0882f10c7ef403bba3beb3d33974c7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a092226e29b2d8cf6171c40a6f64fdf0deb8452")]
 [assembly: System.Reflection.AssemblyProductAttribute("AGDATAPITesting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AGDATAPITesting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

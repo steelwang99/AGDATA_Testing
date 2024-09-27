@@ -1,0 +1,52 @@
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [DEBUG].
+log4net: Logger [root] level set to [name="DEBUG",value=30000].
+log4net: Loading Appender [ConsoleAppender] type: [log4net.Appender.ConsoleAppender]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%date %-5level %logger - %message%newline]
+log4net: Converter [date] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [level] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [logger] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ - ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Created Appender [ConsoleAppender]
+log4net: Adding appender named [ConsoleAppender] to logger [root].
+log4net: Loading Appender [FileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [C:\\Temp\\api-log.txt]
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [5]
+log4net: Setting Property [MaximumFileSize] to String value [10MB]
+log4net: Setting Property [StaticLogFileName] to Boolean value [True]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%date %-5level %logger - %message%newline]
+log4net: Converter [date] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [level] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [logger] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ - ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [C:\Temp]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [C:\Temp\api-log.txt] append [True]
+log4net: Created Appender [FileAppender]
+log4net: Adding appender named [FileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+2024-09-26 21:00:40,741 INFO  AGDATAApiTesting.AGDATAApiClientTests - Setting up the API client for testing.
+2024-09-26 21:00:40,755 INFO  AGDATAApiTesting.AGDATAApiClient - Initialized RestClient with the base URL: https://jsonplaceholder.typicode.com
+2024-09-26 21:00:40,756 INFO  AGDATAApiTesting.AGDATAApiClientTests - Starting Test_01_GetPosts_ReturnsOk
+2024-09-26 21:00:40,757 INFO  AGDATAApiTesting.AGDATAApiClient - Sending GET request to /posts endpoint
+2024-09-26 21:00:40,899 INFO  AGDATAApiTesting.AGDATAApiClient - GET request from /posts successfully
+2024-09-26 21:00:40,899 INFO  AGDATAApiTesting.AGDATAApiClientTests - GET /posts request sent.
+2024-09-26 21:00:40,903 INFO  AGDATAApiTesting.AGDATAApiClientTests - Received status code 200 OK.
+2024-09-26 21:00:40,906 INFO  AGDATAApiTesting.AGDATAApiClientTests - Response content is not empty.
+2024-09-26 21:00:40,909 INFO  AGDATAApiTesting.AGDATAApiClientTests - Found 100 posts.
